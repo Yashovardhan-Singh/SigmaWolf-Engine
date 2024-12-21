@@ -3,5 +3,5 @@ project(wolf C)
 
 set(CMAKE_C_STANDARD 11)
 
-add_executable(wolf main.c)
+add_executable(wolf src/main.c)
 target_link_libraries(wolf SDL2 SDL2_image)
